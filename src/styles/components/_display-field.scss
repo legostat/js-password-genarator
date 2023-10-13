@@ -1,0 +1,45 @@
+.display-field {
+  position: relative;
+  width: 100%;
+
+  .value {
+    display: block;
+    width: 100%;
+    padding: 1rem 3.5rem 1rem 1rem;
+    background-color: $light;
+    border: 1px solid $dark;
+    border-radius: 0.25rem;
+    color: $dark;
+    font-size: 1.25rem;
+    font-weight: 600;
+    outline: none;
+  }
+
+  .copy {
+    &-btn {
+      position: absolute;
+      right: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: none;
+      color: $secondary;
+
+      svg {
+        width: 2rem;
+      }
+    }
+
+    &-info {
+      position: absolute;
+      z-index: 10;
+      top: 1rem;
+      right: 1rem;
+      display: block;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: rgba($secondary, 0.8);
+      color: $light;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.generate-btn {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: $secondary;
+  color: $light;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-align: center;
+
+  &:hover {
+    background-color: darken($secondary, 1.5);
+  }
+}
